@@ -17,7 +17,7 @@ This repository holds the **landing page** for **SnapClass**, an AI attendance s
 
 The page introduces the product, walks through the teacher and student journeys with screenshots taken from the real app, and links visitors to the live attendance app.
 
-- 🚀 **Live app:** [snapclass.streamlit.app](https://snapclass.streamlit.app/)
+- 🚀 **Live app:** [SnapClass on Streamlit Cloud](https://nirbhay404-snap-class-ai-attendance-application--app-lpyli0.streamlit.app/) (every "Start AI Attendance" button on the page links here)
 - 🧠 **Main app repository:** [Snap-Class-AI-Attendance-application-](https://github.com/Nirbhay404/Snap-Class-AI-Attendance-application-)
 
 ---
@@ -33,7 +33,9 @@ The page introduces the product, walks through the teacher and student journeys 
 | **The Student's Journey** | Three phases: instant enrollment, biometric registration, personal dashboard |
 | **Footer** | Navigation links and branding |
 
-Scroll-reveal animations for the cards and journey steps are in `static/js/script.js`.
+Scroll-reveal animations for the cards and journey steps are in `static/js/script.js`. The layout is responsive and adapts down to phone screens.
+
+To point the buttons at a different app URL, change the `href` of the "Start AI Attendance" links in `templates/index.html`.
 
 ---
 
